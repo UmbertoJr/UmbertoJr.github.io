@@ -1,18 +1,19 @@
 # Authors
 
 Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
+  name        : "Umberto Junior Mele"
+  uri         : "http://umbertojuniormele.com"
   email       : "name@name.com"
   bio         : "This is the first name."
   avatar      : "bio-photo-2.jpg"
   twitter     : "name"
   google_plus : "Name"
+  googlescholar: "https://scholar.google.com/citations?user=H4ePDO0AAAAJ&hl=en&oi=ao"
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+# Name2 Name2:
+#   name        : "Name2 Name2"
+#   email       : "name2@name2.com"
+#   bio         : "I ordered what?"
+#   avatar      : "bio-photo.jpg"
+#   twitter     : "name2"
+#   google_plus : "Name"

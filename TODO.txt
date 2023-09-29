@@ -1,0 +1,4 @@
+TODO:
+1) aggiustare la larghezza del sito web
+2) sistemare problema con link sulle pubblicazioni
+3) finire blog su Lin Kernighan heuristic

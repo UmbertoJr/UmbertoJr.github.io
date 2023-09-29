@@ -16,7 +16,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "UmbertoJr/UmbertoJr.github.io"
 teaser                   : "" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
+words_per_minute         : 100
 future                   : true
 read_more                : "enable" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Umberto Junior Mele"
+  name             : "Umberto J. Mele"
   avatar           : "cv_foto.jpeg"
   bio              : "Data scientist, AI and optimization expert."
   location         : "Lugano, 6900, Switzerland"
@@ -99,7 +99,7 @@ author:
   github           : "UmbertoJr"
   google_plus      :
   keybase          :
-  instagram        : "umbo_el_bailador"
+  # instagram        : #"umbo_el_bailador"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :

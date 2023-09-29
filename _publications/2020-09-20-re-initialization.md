@@ -7,6 +7,10 @@ Random Restart Local Search is a heuristic method widely used to solve combinato
 date: 2021-06-07
 venue: 'Proceedings of the 8th International Conference on Industrial Engineering and Applications'
 paperurl: ''
+authors: 'Xiaochen Chou, Umberto Junior Mele, Luca Maria Gambardella, and Roberto Montemanni.(2021).'
+year: '(2021)'
+journal: '<i>Proceedings of the 8th International Conference on Industrial Engineering and Applications (Europe)<i>'
+paged: '153-158'
 citation: 'Xiaochen Chou, Umberto Junior Mele, Luca Maria Gambardella, and Roberto Montemanni.(2021). &quot;Re-Initialising Solutions in a Random Restart Local Search for the Probabilistic Orienteering Problem&quot; <i>Proceedings of the 8th International Conference on Industrial Engineering and Applications (Europe)</i>. pp. 153-158.'
 ---
 
