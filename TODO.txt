@@ -2,3 +2,7 @@ TODO:
 1) aggiustare la larghezza del sito web
 2) sistemare problema con link sulle pubblicazioni
 3) finire blog su Lin Kernighan heuristic
+4) Sistemare sezione sui Talks
+5) Sistemare sezione sul Teaching
+6) " sui Blog Posts
+7) " CV

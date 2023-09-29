@@ -11,7 +11,7 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
-
+<!-- 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <li>
@@ -39,4 +39,37 @@
     {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
     </li>
  </article>
+</div> -->
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <li>
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+    <h3 class="archive__item-title" itemprop="headline" style="display: inline;">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h3>
+    <!-- Using <span> instead of <p> for inline styling -->
+      {% if post.read_time %}
+      <span class="page__meta" style="padding-left: 10px; font-size: 1em;"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+    {% endif %}
+    {% if post.venue %}
+      <span class="archive__item-excerpt" itemprop="description" style="padding-left: 10px; font-size: 1em;">{{ post.citation }}</span>
+    {% endif %}
+    </li>
+ </article>
 </div>
+
