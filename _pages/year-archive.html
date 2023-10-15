@@ -15,5 +15,15 @@ redirect_from:
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
-  {% include archive-single.html %}
+  {% include archive-single-cv.html %}
+  
+  {% if post.tags.size > 0 %}
+    <div class="post-tags">
+      Tags:
+      {% for tag in post.tags %}
+        {{ tag }}{% if forloop.last != true %}, {% endif %}
+      {% endfor %}
+    </div>
+    <br>
+  {% endif %}
 {% endfor %}

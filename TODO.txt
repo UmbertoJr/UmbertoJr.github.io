@@ -1,5 +1,4 @@
 TODO:
--) aggiustare la larghezza del sito web
 -) finire blog su Lin Kernighan heuristic
 -) Sistemare sezione sui Talks
 -) Sistemare sezione sul Teaching
